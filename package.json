@@ -1,5 +1,5 @@
 {
-  "name": "botworks",
+  "name": "smacktalkbot",
   "version": "1.0.0",
   "description": "Build a bot in Node.js on Microsoft Bot Framework",
   "main": "index.html",
@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SarahSays/BotWorks.git"
+    "url": "git+https://github.com/threebrick/smacktalkbot.git"
   },
-  "author": "Sarah Sexton",
+  "author": "Darnell Clayton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SarahSays/BotWorks/issues"
+    "url": "https://github.com/threebrick/smacktalkbot/issues"
   },
-  "homepage": "https://github.com/SarahSays/BotWorks#readme",
+  "homepage": "https://github.com/threebrick/smacktalkbot#readme",
   "dependencies": {
     "botbuilder": "^1.0.0",
-    "restify": "^4.1.0"
+    "restify": "^4.1.1"
   }
 }

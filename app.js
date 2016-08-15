@@ -2,11 +2,11 @@
 var restify = require('restify');
 var builder = require('botbuilder');
 
-//var appId = process.env.MY_APP_ID || "dd0a4eb6-9324-4d4a-9251-da27f780a679";
-//var appSecret = process.env.MY_APP_SECRET || "QcAK5MpmPiAXD2mqp1MSZ4c";
+var appId = process.env.MY_APP_ID || "dd0a4eb6-9324-4d4a-9251-da27f780a679";
+var appSecret = process.env.MY_APP_SECRET || "QcAK5MpmPiAXD2mqp1MSZ4c";
 
-var appId = null;
-var appSecret = null;
+//var appId = null;
+//var appSecret = null;
 
 // Create bot and add dialogs
 var bot = new builder.BotConnectorBot
